@@ -1,0 +1,105 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.display {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font: monospace;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.buttons {
+display: flex;
+flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #d8d9db;
+  color: black;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 25px;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.btn:hover {
+  background-color: #ebebeb;
+}
+
+.btn:active {
+  background-color: #ebebeb;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.op {
+  background-color: #df974c;
+  color: white;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 25px;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.op:hover {
+  background-color: #dfb07e;
+}
+
+.op:active {
+  background-color: #dfb07e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.clear {
+  background-color: #d8d9db;
+  color: black;
+  flex-grow: 1;
+  flex-basis: 50%;
+  padding: 25px;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.clear:hover {
+  background-color: #ebebeb;
+}
+
+.clear:active {
+  background-color: #ebebeb;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.zero {
+  background-color: #d8d9db;
+  color: black;
+  flex-grow: 1;
+  flex-basis: 75%;
+  padding: 25px;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.zero:hover {
+  background-color: #ebebeb;
+}
+
+.zero:active {
+  background-color: #ebebeb;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
